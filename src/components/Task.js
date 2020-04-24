@@ -8,6 +8,8 @@ const Task = ({ name }) => (
   </p>
 );
 
-Task.propTypes = { name: PropTypes.string.isRequired };
+Task.propTypes = {
+  name: PropTypes.string.isRequired,
+};
 
 export default Task;
